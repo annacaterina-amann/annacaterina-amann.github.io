@@ -1,0 +1,111 @@
+h1 {
+  color: forestgreen;
+  font-family: "Veranda", sans-serif;
+  font-weight: bold;
+}
+h2, h3 {
+  color: #0500A3;
+  font-family: "Veranda", sans-serif;
+  font-weight: bold;
+}
+h4 {
+  font-size: 1.06em;
+  color: orange;
+  font-family: "Veranda", sans-serif;
+  font-weight: bold;
+}
+h5, h6 {
+  font-family: "Veranda", sans-serif;
+  font-weight: bold;
+}
+p, li {
+  font-family: "Georgia", serif;
+}
+img{
+  width: 492.8px;
+  height: auto;
+}
+
+.hoch img{
+  height: auto;
+  width: 32.64%;
+}
+
+.sectionmenu{
+  margin-left: 30px;
+}
+.title {
+   text-decoration: none;
+}
+
+#index{
+  background-image: url("media/DSC_5191.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+#back {
+  background-color: #E3F395;
+}
+.text{
+  position: absolute;
+  top: auto;
+  left: auto;
+}
+img.bg {
+  opacity: 1;
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.content {
+    padding:20px;
+    width: auto;
+    position: relative;
+    background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+.list {
+    padding:20px;
+    width: auto;
+    position: relative;
+    background: rgb(255, 255, 255); /* Fallback for older browsers without RGBA-support */
+    background: rgba(255, 255, 255, 0.5);
+    text-align: left;
+}
+.header {
+    top:0%;
+    width: auto;
+    height: auto;
+    background-repeat:no-repeat;
+    background-position:center;
+    border-style: solid;
+    border-width: medium;
+    border-color: white;
+    margin: 20px 2px 2px 2px;
+}
+.row {
+ display: flex;
+ flex-wrap: wrap;
+}
+#head.header {
+  opacity: 1;
+}
+
+footer p{
+  color: black;
+}
+iframe{
+   width: 560px;
+   height: 315px;
+   border-width: 0;
+}
+.cul{
+  background-color: #AEE85E;
+}
